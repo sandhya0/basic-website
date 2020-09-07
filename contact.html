@@ -11,10 +11,158 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <title>CONTACT ME</title>
+  <style>
+
+    @media screen and (max-width: 600px) {
+
+       .col-25, .col-75, input[type=submit] {
+
+         width: 100%;
+
+         margin-top: 0;
+
+       }
+
+    }
+
+</style>
 
  </head>
 
  <body>
+    <div class="topnav" id>
+
+        <nav><ul>
+
+                <li><a href="index.html">HOME</a></li>
+
+                <li><a href="about.html">ABOUT ME</a> </li>
+
+                <li><a href="photo.html">PHOTOS</a></li>
+
+                <li><a href="contact.html">CONTACT ME</a></li>
+
+            </ul></nav>
+
+        </div>
+
+        
+
+     <h1 class="title" style="font-size: 4vw;">Welcome to my page</h1>
+
+<h2 style="font-size: 4vw;">Contact details</h2>
+
+<p style="font-size: 2vw;">If you want to provide any suggestion for my improvement you are welcome for it.</p>
+
+
+
+<div class="container">
+
+  <form action="/action_page.php">
+
+  <div class="row">
+
+    <div class="col-25">
+
+      <label for="fname">First Name</label>
+
+    </div>
+
+    <div class="col-75">
+
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-25">
+
+      <label for="lname">Last Name</label>
+
+    </div>
+
+    <div class="col-75">
+
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-25">
+
+      <label for="country">Country</label>
+
+    </div>
+
+    <div class="col-75">
+
+      <select id="country" name="country">
+
+        <option value="australia">Australia</option>
+
+        <option value="canada">Canada</option>
+
+        <option value="usa">USA</option>
+
+      </select>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-25">
+
+      <label for="subject">Subject</label>
+
+    </div>
+
+    <div class="col-75">
+
+      <textarea id="subject" name="subject" placeholder="Write something.." 
+
+      style="height:200px">
+
+        </textarea>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <input type="submit" value="Submit">
+
+  </div>
+
+  </form>
+
+</div>
+
+<div class="row">
+
+    <h3 style="font-size: 4vw;">Wanna contact me</h3>
+
+    <p style="font-size: 2vw;">Not an actual address,sydney<br> Email: myname@example.com<br>Phone: 0420xxxxx8<br> and</p>
+
+</div>
+
+
+
+<a href="#" class="fa fa-facebook"></a>
+
+<a href="#" class="fa fa-youtube"></a>
+
+<a href="#" class="fa fa-instagram"></a>
+
+<a href="#" class="fa fa-snapchat-ghost"></a>
 
  </body>
  </html>
