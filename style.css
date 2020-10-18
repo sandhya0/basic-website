@@ -39,19 +39,8 @@ body {
 
 }
 
-.navlink{
-  font-size: 1.1em !important;
-}
 
-title{
 
-    font-size: larger;
-
-    font-style: normal;
-
-    font-size: 50%;
-
-}
 .bio-div a{
   text-align: center;
 }
@@ -65,13 +54,13 @@ h1{
       
         text-align: center;
 
-        font-size: 150%;
+        
 
 }
 
 h2{ 
 
-    font-size: 200%;
+   font-family: Arial, Helvetica, sans-serif;
 
   
 
@@ -93,182 +82,3 @@ text-align: center;
 
 }
 
-figcaption{
-
-    text-align: center;
-
-    font-style: italic;
-
-    font-size: 3vw;
-
-    font-weight: bold;
-
-}
-
-
-
-input[type=text], select, textarea {
-
-    width: 100%;
-
-    padding: 12px;
-
-    border: 1px solid #ccc;
-
-    border-radius: 4px;
-
-    resize: vertical;
-
-  }
-
-  
-
-label {
-
-    padding: 12px 12px 12px 0;
-
-    display: inline-block;
-
-}
-
-  
-
-input[type=submit] {
-
-    background-color: #4CAF50;
-
-    color: white;
-
-    padding: 12px 20px;
-
-    border: none;
-
-    border-radius: 4px;
-
-    cursor: pointer;
-
-    float: right;
-
-}
-
-  
-
-input[type=submit]:hover {
-
-    background-color: #45a049;
-
-}
-
-  
-
-.container {
-
-    border-radius: 5px;
-
-    background-color: lightgray;
-
-    padding: 20px;
-
-}
-
-  
-
-.col-25 {
-
-    float: left;
-
-    width: 25%;
-
-    margin-top: 6px;
-
-}
-
-  
-
-  .col-75 {
-
-    float: left;
-
-    width: 75%;
-
-    margin-top: 6px;
-
-  }
-
-  
-
-  /* Clear floats after the columns */
-
-  .row:after {
-
-    content: "";
-
-    display: table;
-
-    clear: both;
-
-  }
-
-  .fa {
-
-    padding: 50px;
-
-    font-size: 30px;
-
-    width: 50px;
-
-    text-align: center;
-
-    text-decoration: none;
-
-    margin: 5px 2px;
-
-    justify-content: space-between;
-
-  }
-
-  
-
-  .fa:hover {
-
-      opacity: 0.7;
-
-  }
-
-  
-
-  .fa-facebook {
-
-    background: #3B5998;
-
-    color: white;
-
-  }
-
-  .fa-youtube {
-
-        background: #bb0000;
-
-        color: white;
-
-      }
-
-      
-
-      .fa-instagram {
-
-        background: deeppink;
-
-        color: white;
-
-      }
-
-      .fa-snapchat-ghost {
-
-        background: #fffc00;
-
-        color: white;
-
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-      }
