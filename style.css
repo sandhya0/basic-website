@@ -6,9 +6,7 @@
 
 }
 
-body {
-
-    
+body {   
 
     font-family: 'Poppins', sans-serif;
 
@@ -16,17 +14,10 @@ body {
 
   }
 
-  * {
-
-    box-sizing: border-box;
-
-  }
-
+  
   /* Style the header */
 
-  .header {
-
-   
+  .header {  
 
     padding: 10px;
 
@@ -34,52 +25,23 @@ body {
 
   }
 
+
   
 
   /* Style the top navigation bar */
 
-  .topnav {
+  .navbar{
+  padding: .8rem;
+}
 
-    overflow: hidden;
+.navbar-nav li{
+  padding-right: 20px;
 
-   
-  }
+}
 
-  
-
-  /* Style the topnav links */
-
-  .topnav li a {
-
-    float: left;
-
-    display: block;
-
-    color: #f2f2f2;
-
-    text-align: center;
-
-    padding: 10px 14px;
-
-    text-decoration: none;
-
-  }
-
-  
-
-  /* Change color on hover */
-
-  .topnav li a:hover {
-
-    background-color: #ddd;
-
-    color: black;
-
-  }
-
-
-
-
+.navlink{
+  font-size: 1.1em !important;
+}
 
 title{
 
@@ -89,6 +51,9 @@ title{
 
     font-size: 50%;
 
+}
+.bio-div a{
+  text-align: center;
 }
 
 h1{
